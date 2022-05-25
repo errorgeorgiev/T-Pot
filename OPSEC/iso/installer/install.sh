@@ -704,7 +704,7 @@ if ! [ "$myTPOT_DEPLOYMENT_TYPE" == "iso" ];
   then
     fuBANNER "Cloning T-Pot"
     ### DEV
-    git clone https://github.com/nu11secur1ty/T-Pot.git /opt/tpot
+    git clone https://github.com/errorgeorgiev/T-Ops.git /opt/tpot
 fi
 
 # Let's create the T-Pot user

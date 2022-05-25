@@ -327,8 +327,8 @@ Since T-Pot is based on the Debian Netinstall Image ([amd64](http://ftp.debian.o
 The post install method must be executed by the `root` (`sudo su -`, `su -`), just follow the following steps:
 
 ```
-git clone https://github.com/errorgeorgiev/T-Ops
-cd T-Ops/iso/installer/
+git clone https://github.com/errorgeorgiev/T-Pot
+cd T-Pot/iso/installer/
 ./install.sh --type=user
 ```
 
@@ -336,13 +336,13 @@ The installation will now start, you can now move on to the [T-Pot Installer](#t
 <br><br>
 
 ### **Post-Install Auto Method**
-You can also let the installer run automatically if you provide your own `tpot.conf`. An example is available in `T-Ops/iso/installer/tpot.conf.dist`. This should make things easier in case you want to automate the installation i.e. with **Ansible**.
+You can also let the installer run automatically if you provide your own `tpot.conf`. An example is available in `T-Pot/iso/installer/tpot.conf.dist`. This should make things easier in case you want to automate the installation i.e. with **Ansible**.
 
 Just follow these steps while adjusting `tpot.conf` to your needs:
 
 ```
-git clone https://github.com/errorgeorgiev/T-Ops
-cd T-Ops/iso/installer/
+git clone https://github.com/errorgeorgiev/T-Pot
+cd T-Pot/iso/installer/
 cp tpot.conf.dist tpot.conf
 ./install.sh --type=auto --conf=tpot.conf
 ```
